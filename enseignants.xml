@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enseignants>
+
+    <enseignant id="enseignant1">
+        <nom>Kasse</nom>
+        <prenom>Alioune</prenom>
+        <grade>Professeur IA</grade>
+        <specialite>Le Professeur Kasse est représenté devant un écran affichant un réseau de neurones artificiels, accompagné d'un bras robotique, symbolisant la recherche et le développement en IA.</specialite>
+        <email>alioune@ipf.sn</email>
+        <photo>images/kasse.png</photo>
+        <formation_id> ia</formation_id>
+    </enseignant>
+
+    <enseignant id="enseignant2">
+        <nom>Ba</nom>
+        <prenom>Idrissa</prenom>
+        <grade>Maitre de conférence de Web</grade>
+        <specialite>drissa Ba est installé dans une salle de cours moderne. Il tient une tablette affichant un design d'interface (wireframe), tandis que le tableau derrière lui porte la mention "HTML/CSS", illustrant son expertise en technologies web.</specialite>
+        <email>idrissa@ipf.sn</email>
+        <photo>images/idy.png</photo>
+        <formation_id></formation_id>
+    </enseignant>
+
+    <enseignant id="enseignant3">
+        <nom>Kane</nom>
+        <prenom>Fatima</prenom>
+        <grade>Assistant de Cyber</grade>
+        <specialite>Fatima Kane est photographiée dans un centre d'opérations de sécurité, concentrée devant un mur d'écrans affichant des cartes de menaces mondiales et des flux de données de surveillance.</specialite>
+        <email>fatima@ipf.sn</email>
+        <photo>images/tima.png</photo>
+        <formation_id>cyber</formation_id>
+    </enseignant>
+
+    <enseignant id="enseignant4">
+        <nom>Ndao</nom>
+        <prenom>Rama</prenom>
+        <grade>Professeur Finance</grade>
+        <specialite>La Professeure Ndao est en train d'enseigner dans une salle de conférence. Elle utilise un tableau blanc couvert de diagrammes financiers complexes, de flux de trésorerie et de graphiques boursiers. </specialite>
+        <email>rama@ipf.sn</email>
+        <photo>images/ram.png</photo>
+        <formation_id>gest1</formation_id>
+    </enseignant>
+
+    <enseignant id="enseignant5">
+        <nom>Samb</nom>
+        <prenom>Modou</prenom>
+        <grade>Maitre de conférence en  Marketing</grade>
+        <specialite>Le Professeure Samb est en train d'enseigner dans une salle de conférence. Elle utilise un tableau blanc couvert de diagrammes financiers complexes, de flux de trésorerie et de graphiques boursiers.</specialite>
+        <email>modou@ipf.sn</email>
+        <photo>images/mousa.png</photo>
+        <formation_id>gest</formation_id>
+    </enseignant>
+
+    <enseignant id="enseignant6">
+        <nom>Diallo</nom>
+        <prenom>Marie</prenom>
+        <grade>Assistant de Lettres </grade>
+        <specialite>Marie Diallo est représentée dans une bibliothèque universitaire classique, entourée d'étagères remplies de livres anciens. Elle tient un ouvrage ouvert, incarnant l'étude des textes et de la culture littéraire.</specialite>
+        <email>marie@ipf.sn</email>
+        <photo>images/mari.png</photo>
+        <formation_id>inf</formation_id>
+    </enseignant>
+
+</enseignants>

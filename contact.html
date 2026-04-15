@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - IPF</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo ipf.png" alt="Logo IPF">
+               
+            </div>
+            <nav class="nav">
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="enseignants.html">Enseignants</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Nous Contacter</h2>
+        <p>Une question ? Une inscription ? N'hésitez pas à nous écrire, nous vous répondrons dans les meilleurs délais.</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>📍 Notre adresse</h3>
+                <p>123 Avenue de l'Université<br>
+                 thies ,Senegal</p>
+                
+                <h3>📞 Téléphone</h3>
+                <p>+221 77 777 77 77</p>
+                
+                <h3>✉️ Email</h3>
+                <p>contact@ipf.edu.sn</p>
+                
+                <h3>🕐 Horaires d'ouverture</h3>
+                <p>Lundi - Vendredi : 9h00 - 18h00<br>
+                Samedi : 9h00 - 12h00<br>
+                Dimanche : Fermé</p>
+                
+                <h3>🚇 Accès</h3>
+                <p> Ligne 1 - Station Université<br>
+                Bus 24, 72 - Arrêt Campus</p>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Formulaire de contact</h3>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="nom">Nom complet *</label>
+                        <input type="text" id="nom" name="nom" placeholder="prénom nom">
+                        <div class="error-message" id="nom-error">Veuillez entrer votre nom</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="exemple@email.com">
+                        <div class="error-message" id="email-error">Veuillez entrer un email valide</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telephone">Téléphone</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="+221 77 777 77 77">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="sujet">Sujet *</label>
+                        <select id="sujet" name="sujet">
+                            <option value="">Sélectionnez un sujet</option>
+                            <option value="information">📘 Demande d'information</option>
+                            <option value="inscription">📝 Inscription</option>
+                            <option value="rendezvous">📅 Prise de rendez-vous</option>
+                            <option value="stage">💼 Convention de stage</option>
+                            <option value="autre">❓ Autre</option>
+                        </select>
+                        <div class="error-message" id="sujet-error">Veuillez sélectionner un sujet</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message..."></textarea>
+                        <div class="error-message" id="message-error">Veuillez écrire votre message (minimum 10 caractères)</div>
+                    </div>
+                    
+                    <button type="submit" class="btn">📨 Envoyer le message</button>
+                    
+                    <div id="success-message" class="success-message">
+                        ✅ Votre message a été envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>IPF</h4>
+                <p>Institut Polyvalent du Futur</p>
+                <p>Polyvalence aujourd'hui, excellence demain</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📍 123 Avenue de l'Université</p>
+                <p> thies ,Senegal</p>
+                <p>📞 +221 77 777 77 77</p>
+                <p>✉️ contact@ipf.edu.sn</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <p><a href="formations.html">📘 Nos formations</a></p>
+                <p><a href="enseignants.html">👨‍🏫 Corps enseignant</a></p>
+                <p><a href="contact.html">📝 Nous contacter</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Horaires</h4>
+                <p>Lun-Ven : 9h00 - 18h00</p>
+                <p>Sam : 9h00 - 12h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Institut Polyvalent du Futur - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="js/xml.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

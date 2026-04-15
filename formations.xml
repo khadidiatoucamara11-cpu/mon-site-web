@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formations>
+
+    <formation id="info1">
+        <intitule>Développement Web Full-Stack</intitule>
+        <domaine>informatique</domaine>
+        <niveau>L3</niveau>
+        <duree>3 ans</duree>
+        <description>Formation complète aux technologies web modernes.</description>
+        <debouches>Développeur web, Full-stack</debouches>
+    </formation>
+
+    <formation id="info2">
+        <intitule>Master Intelligence Artificielle</intitule>
+        <domaine>informatique</domaine>
+        <niveau>Master</niveau>
+        <duree>2 ans</duree>
+        <description>Spécialisation en IA et Data Science.</description>
+        <debouches>Data Scientist, IA Engineer</debouches>
+    </formation>
+
+    <formation id="info3">
+        <intitule>Cybersécurité</intitule>
+        <domaine>informatique</domaine>
+        <niveau>L3</niveau>
+        <duree>3 ans</duree>
+        <description>Sécurité des systèmes.</description>
+        <debouches>Pentester, Analyste sécurité</debouches>
+    </formation>
+
+    <formation id="gest1">
+        <intitule>Management</intitule>
+        <domaine>gestion</domaine>
+        <niveau>L3</niveau>
+        <duree>3 ans</duree>
+        <description>Gestion et entrepreneuriat.</description>
+        <debouches>Manager</debouches>
+    </formation>
+
+    <formation id="sci1">
+        <intitule>Biotechnologies</intitule>
+        <domaine>science</domaine>
+        <niveau>L3</niveau>
+        <duree>3 ans</duree>
+        <description>Biologie et santé.</description>
+        <debouches>Technicien labo</debouches>
+    </formation>
+
+    <formation id="l1">
+        <intitule>Lettres Modernes</intitule>
+        <domaine>lettres</domaine>
+        <niveau>L1</niveau>
+        <duree>3 ans</duree>
+        <description>Littérature française.</description>
+        <debouches>Enseignant</debouches>
+    </formation>
+
+</formations>

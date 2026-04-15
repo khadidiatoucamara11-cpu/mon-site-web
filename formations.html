@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formations - IPF</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo ipf.png" alt="Logo IPF">
+              
+            </div>
+            <nav class="nav">
+                <a href="index.html">Accueil</a>
+                <a href="formations.html" class="active">Formations</a>
+                <a href="enseignants.html">Enseignants</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+<section class="formations-hero">
+        <div class="formations-hero-overlay"></div>
+        <div class="formations-hero-content">
+            <h1>Nos Formations</h1>
+            <p>Des programmes d'excellence pour construire votre avenir</p>
+            <div class="hero-badges">
+                <span class="hero-badge"><i class="fas fa-graduation-cap"></i> 6+ formations</span>
+                <span class="hero-badge"><i class="fas fa-chalkboard-user"></i> 120+ enseignants</span>
+                <span class="hero-badge"><i class="fas fa-briefcase"></i> 94% insertion</span>
+            </div>
+        </div>
+    </section>
+    <main>
+        <h2>Nos Formations</h2>
+        <p>Découvrez l'ensemble de nos programmes d'études, conçus pour former les professionnels de demain.</p>
+        
+        <div class="filter-bar">
+            <label>🔍 Filtrer par domaine :</label>
+            <button class="filter-btn active" data-domain="all">Tous</button>
+            <button class="filter-btn" data-domain="informatique">💻 Informatique</button>
+            <button class="filter-btn" data-domain="gestion">📊 Gestion</button>
+            <button class="filter-btn" data-domain="science">🔬 Sciences</button>
+            <button class="filter-btn" data-domain="lettres">📖 Lettres</button>
+        </div>
+        
+        <div id="formations-container" class="formations-grid">
+            <div style="text-align: center; grid-column: 1/-1;">⏳ Chargement des formations...</div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>IPF</h4>
+                <p>Institut Polyvalent du Futur</p>
+                <p>Polyvalence aujourd'hui, excellence demain</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📍 123 Avenue de l'Université</p>
+                <p>thies,senegal</p>
+                <p>📞 +221 77 777 77 77</p>
+                <p>✉️ contact@ipf.edu.sn</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <p><a href="formations.html">📘 Nos formations</a></p>
+                <p><a href="enseignants.html">👨‍🏫 Corps enseignant</a></p>
+                <p><a href="contact.html">📝 Nous contacter</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Horaires</h4>
+                <p>Lun-Ven : 9h00 - 18h00</p>
+                <p>Sam : 9h00 - 12h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Institut Polyvalent du Futur - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="js/xml.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
